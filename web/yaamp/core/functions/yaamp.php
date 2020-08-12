@@ -99,6 +99,7 @@ function yaamp_get_algos()
 		'yespowerR24',
 		'yespowerR32',
 		'zr5',
+		'kawpow',
 	);
 }
 
@@ -167,6 +168,7 @@ function yaamp_get_algo_norm($algo)
 		'yescryptR16'	=> 1.0,
 		'yescryptR32'	=> 1.0,
 		'zr5'		=> 1.0,
+		'kawpow'	=> 1.0,
 	);
 
 	if(!isset($a[$algo]))
@@ -274,6 +276,7 @@ function getAlgoColors($algo)
 		'yespowerR24' 	=> '#e2d0d2',
 		'yespowerR32' 	=> '#e2d0d2',
 		'zr5'		=> '#d0b0d0',
+		'kawpow'        => '#d0bd00',
 
 		'MN'		=> '#ffffff', // MasterNode Earnings
 		'PoS'		=> '#ffffff'  // Stake
@@ -384,6 +387,7 @@ function getAlgoPort($algo)
 		'yespowerR24'	=> 6237,
 		'yespowerR32'	=> 6238,
 		'zr5'		=> 5533,
+		'kawpow'        => 3635,
 		//'groestl'	=> 5333,
 		// 5555 to 5683 reserved
 	);
